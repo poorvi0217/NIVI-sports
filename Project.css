@@ -14,19 +14,7 @@ a{
     text-decoration: none;
     color:aliceblue;
 }
-#cursor{
-    height: 20px;
-   width: 20px;
-   background-color: white;
-   border-radius: 50%;
-   position: fixed;
-   font-size: 5px;
-   text-align: center;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   z-index: 10;
-}
+
 #showcase{
     margin:0;
     padding:0;
@@ -42,17 +30,12 @@ a{
 nav{
     height: auto;
     width: 100%;
-    background-color:rgba(0, 0, 0, 0.973) ;
-    color:rgb(51,34,34) ;
+    background-color:rgba(0, 0, 0, 0.973) ; 
+     color:rgb(51,34,34) ;
+     z-index: 1;
     position: fixed;
-    z-index: 9;
 }
 
-.nav{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
 #showcase .container{
     margin-top: 25vh;
 }
@@ -65,6 +48,8 @@ nav{
     font-size: 3vw;  /*root elemnt font size*/
 }
 nav ul{
+    display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
 }
@@ -76,6 +61,8 @@ nav li{
 nav a{
     display: inline-block;
     width:100px;
+    font-size: 1.2vw;
+    font-weight: 40px;
     text-align: center;
     text-decoration: none;
     padding:10px 0; /*top bottom/left right*/
@@ -92,6 +79,11 @@ nav li:hover{
 }
 .lead{
     font-size: 1.5vw;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 footer .footer-cols{
       display: grid;
@@ -245,3 +237,29 @@ h4{
 .logo:hover{
     background-color: black;
 }
+
+/* buy button in image through card */ 
+  .btn {
+    border-radius: 4px;
+    background: #333;
+    text-align: center;
+    z-index: 10;
+    /* transition: 0.2s; */
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0px 1px 5px 2px #BFCEEF;
+  }
+  .btn-particles {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    color: #eee;
+    font-family: monospace;
+    z-index: 5;
+  /*  filter: url(#gooeyness); */
+  }
+  /* .btn:active {
+    transform: scale(0.9) translate(-55%, -55%);
+  } */
+  
