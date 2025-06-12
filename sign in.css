@@ -9,18 +9,26 @@ html {
   }
   
   .login-box {
-    position: absolute;
+    display: none;
+    position: fixed;
     top: 50%;
     left: 50%;
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.5);
+    background: rgb(0 0 0 / 97%);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
+    z-index: 9;
+    overflow: hidden;
   }
-  
+  /* #loinPopup{
+    width: 100vh;
+    height: 100vw;
+    background-color: black;
+  }
+   */
   .login-box h2 {
     margin: 0 0 30px;
     padding: 0;
@@ -75,7 +83,14 @@ html {
     margin-top: 40px;
     letter-spacing: 4px
   }
-  
+  .fa-circle-xmark{
+        position: absolute;
+    top: 17px;
+    color: #ffffff;
+    right: 14px;
+    font-size: 25px;
+    cursor: pointer;
+  }
   .login-box a:hover {
     background: #03e9f4;
     color: #fff;

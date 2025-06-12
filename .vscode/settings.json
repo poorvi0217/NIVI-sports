@@ -1,7 +1,11 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "liveServer.settings.port": 5502
 =======
     "liveServer.settings.port": 5501
 >>>>>>> ff00082 (final commit)
+=======
+    "liveServer.settings.port": 5502
+>>>>>>> 7617595 (Updated code)
 }
