@@ -59,6 +59,7 @@ nav li{
     float: left;
     cursor: pointer;
      padding: 10px;
+     transform: none !important;
 }
 nav a{
     display: inline-block;
@@ -238,15 +239,10 @@ h4{
     justify-content: center;
     margin-top: 1vh;
     margin-left: 2vw;
+    transform: none !important;
 }
 /* .logo:hover{
-    background-color: black;
-<<<<<<< HEAD
-}
-=======
-} */
->>>>>>> 7617595 (Updated code)
-
+    background-color: black
 /* buy button in image through card */ 
   .btn {
     border-radius: 4px;
